@@ -248,7 +248,7 @@ func prepare(tb testing.TB) (*worldmock.MockWorld, *worldmock.Account, vmhost.VM
 		BlockGasLimit:            uint64(1000),
 		GasSchedule:              gasMap,
 		BuiltInFuncContainer:     builtInFunctions.NewBuiltInFunctionContainer(),
-		ProtectedKeyPrefix:       []byte("E" + "L" + "R" + "O" + "N" + "D"),
+		ProtectedKeyPrefix:       []byte("N" + "U" + "M" + "B" + "A" + "T"),
 		DCDTTransferParser:       dcdtTransferParser,
 		EpochNotifier:            &mock.EpochNotifierStub{},
 		EnableEpochsHandler:      &mock.EnableEpochsHandlerStub{},

@@ -319,7 +319,7 @@ func DefaultTestVMWithWorldMockWithGasSchedule(tb testing.TB, customGasSchedule 
 		BlockGasLimit:        uint64(1000),
 		GasSchedule:          gasSchedule,
 		BuiltInFuncContainer: world.BuiltinFuncs.Container,
-		ProtectedKeyPrefix:   []byte("E" + "L" + "R" + "O" + "N" + "D"),
+		ProtectedKeyPrefix:   []byte("N" + "U" + "M" + "B" + "A" + "T"),
 		DCDTTransferParser:   dcdtTransferParser,
 		EpochNotifier:        &mock.EpochNotifierStub{},
 		EnableEpochsHandler: &mock.EnableEpochsHandlerStub{
@@ -367,7 +367,7 @@ func DefaultTestVMWithGasSchedule(
 		BlockGasLimit:        uint64(1000),
 		GasSchedule:          gasSchedule,
 		BuiltInFuncContainer: builtInFunctions.NewBuiltInFunctionContainer(),
-		ProtectedKeyPrefix:   []byte("E" + "L" + "R" + "O" + "N" + "D"),
+		ProtectedKeyPrefix:   []byte("N" + "U" + "M" + "B" + "A" + "T"),
 		DCDTTransferParser:   dcdtTransferParser,
 		EpochNotifier:        &mock.EpochNotifierStub{},
 		EnableEpochsHandler: &mock.EnableEpochsHandlerStub{
